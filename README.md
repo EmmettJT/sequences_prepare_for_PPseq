@@ -91,6 +91,8 @@ This step prepares data for PPseq runs. Run this step twice:
 1. Initial run to generate plots for chosing a time interval.  
 2. Use the plots to refine the time range and run again.
 
+**Tip: For awake behaviour aim chose a time period (around 500-1200s) with lots of trials/repeates of the target behaviour. P
+
 #### Key Parameters:
 - **`Time_span`**: Defines the timeframe (e.g., "Awake" or "PostSleep"). Multiple timeframes can be defined as lists of intervals (e.g., `[[time1, time2], [time3, time4]]`).  
 - **`region`**: Specifies the brain region of interest based on spike data.  
